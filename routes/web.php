@@ -21,11 +21,11 @@ Route::group(['prefix' => 'admin'], function() {
 
 //課題３
  //
-Route::get('xxxx/', 'Admin\AAAController@bbb');
+Route::get('xxxx', 'AAAController@bbb');
 
 //課題４
 
-Route::get('admin/profire/create','admin/ProfileController@add');
+Route::get('admin/profire/create','Admin/ProfileController@add');
 
 
-Route::get('admin/profire/edit','admin/ProfileController@edit');
+Route::get('admin/profire/edit','Admin/ProfileController@edit');
