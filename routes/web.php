@@ -29,3 +29,6 @@ Route::get('admin/profire/create','Admin/ProfileController@add');
 
 
 Route::get('admin/profire/edit','Admin/ProfileController@edit');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
