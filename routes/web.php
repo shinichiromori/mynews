@@ -25,10 +25,10 @@ Route::get('xxxx', 'AAAController@bbb');
 
 //課題４
 
-Route::get('admin/profire/create','Admin/ProfileController@add');
+Route::get('admin/profile/create','Admin\ProfileController@add');
 
 
-Route::get('admin/profire/edit','Admin/ProfileController@edit');
+Route::get('admin/profile/edit','Admin\ProfileController@edit');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
