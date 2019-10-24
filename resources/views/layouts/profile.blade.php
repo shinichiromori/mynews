@@ -21,9 +21,9 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
-        <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         {{-- この章の後半で作成するCSSを読み込みます --}}
-        <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/profile.css') }}" rel="stylesheet">
      </head>
      <body>
          <div id="app">
